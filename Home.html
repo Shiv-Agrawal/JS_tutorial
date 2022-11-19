@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home Page</title>
+  <link rel="icon" type="icon" href="JS.png">
+  <style>
+    .navbarul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #6699ff;
+    }
+
+    .navbarli {
+      float: left;
+    }
+
+    .navbarli a,
+    .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navbarli .navbara:hover,
+    .dropdown:hover .dropbtn {
+      background-color: #ff80ff;
+    }
+
+    .navbarli.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #6699ff;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content .navbara {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content .navbara:hover {
+      background-color: #ff80ff;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <h1 style="color: #000099; font-family: Georgia, 'Times New Roman', Times, serif">JavaScript Tutorials</h1>
+  </center>
+  <ul class="navbarul">
+    <li class="navbarli"><a href="Home.html" class="navbara">Home</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Tutorials</a>
+      <div class="dropdown-content">
+        <a href="Alerts.html" class="navbara">Alerts</a>
+        <a href="Variables.html" class="navbara">Variables</a>
+        <a href="Operators.html" class="navbara">Operators</a>
+        <a href="Data.html" class="navbara">Data Types</a>
+        <a href="Functions.html" class="navbara">Functions</a>
+      </div>
+    </li>
+  </ul>
+  <script>
+    var n = prompt("What is your name")
+    alert("Welcome "+n+", We welcome you to our website of tutorials which will help you learn basics of JavaScript")
+  </script>
+  <h3 class="headingJS">What is JavaScript?</h3>
+  <p1><b>
+      A dynamic computer programming language is called JavaScript. Its implementations enable client-side script to
+      interact with users and create dynamic pages, and it is most frequently used as a component of web pages. It is an
+      object-oriented programming language that may be interpreted.
+
+      LiveScript was the original name of JavaScript, but Netscape changed it to JavaScript, maybe in response to the
+      buzz
+      that Java was causing. LiveScript, the predecessor to JavaScript, had its debut in Netscape 2.0 in 1995. Netscape,
+      Internet Explorer, and other web browsers all contain the general-purpose language's core.
+
+      Along with HTML and CSS, the computer language known as JS is one of the foundational elements of the World Wide
+      Web.
+      98% of websites will utilise JavaScript on the client side by the year 2022 to control webpage functionality,
+      frequently integrating third-party libraries. A dedicated JavaScript engine is available in every major web
+      browser
+      and is used to run the code on users' devices.
+
+      JavaScript is an ECMAScript-compliant high-level, frequently just-in-time compiled language.
+
+      It features first-class functions, prototype-based object orientation, and dynamic typing. It supports
+      event-driven, functional, and imperative programming paradigms and is multi-paradigm. It offers application
+      programming interfaces (APIs) for using the Document Object Model, regular expressions, dates, and standard data
+      structures (DOM).
+
+      <h4>Applications:</4>
+        <ul class="Applications">
+          <li>Websites</li>
+          <li>Web Applications</li>
+          <li>Presentations</li>
+          <li>Server Applications</li>
+          <li>Web Servers</li>
+          <li>Games</li>
+          <li>Art</li>
+          <li>Smartwatch Apps</li>
+          <li>Mobile Apps</li>
+          <li>Flying Robots</li>
+        </ul>
+    </b></p1>
+  <style>
+    p1 {
+      color: #000099;
+      background-color: none;
+      font-size: 18px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .applications {
+      color: #000099;
+      background-color: none;
+      font-size: 18px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .headingJS {
+      color: #000099;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  </style>
+</body>
+
+</html>

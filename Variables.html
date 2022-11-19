@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Variables</title>
+  <link rel="icon" type="icon" href="JS.png">
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #6699ff;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a,
+    .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: #ff80ff;
+    }
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #6699ff;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ff80ff;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <h1 style="color: #000099; font-family: Georgia, 'Times New Roman', Times, serif">Variables</h1>
+  </center>
+  <ul>
+    <li><a href="Home.html">Home</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Tutorials</a>
+      <div class="dropdown-content">
+        <a href="Alerts.html">Alerts</a>
+        <a href="Variables.html">Variables</a>
+        <a href="Operators.html">Operators</a>
+        <a href="Data.html">Data Types</a>
+        <a href="Functions.html">Functions</a>
+      </div>
+    </li>
+  </ul>
+  <script>
+    const x = value
+  </script>
+  <p>
+    var: The var statement declares a variable. Variables are containers for storing information. Creating a variable
+    in JavaScript is called "declaring" a variable.<br>
+    Code:<br>
+    <img src="var.png"><br>
+    Here, x is the variable name and value is something which you can change according to you.<br><br>
+    let: let is a keyword used to declare variables in JavaScript that are block scoped. let keyword could be easily
+    used inside
+    or outside a function as per user requirement.<br>
+    <img src="let.png"><br>
+    Here, x is the variable name and value is something which you can change according to you.<br><br>
+    const: A constant variable can be declared using the keyword const. It must have an assignment with value. Variable
+    created by cost keyword are immutable that means we can’t change the value or reassign them with different values.
+    Any attempt of re-assigning a const variable will result in JavaScript Type error.<br>
+    Code:<br>
+    <img src="const.png"><br>
+    Here, x is the variable name and value is something which you can change according to you.
+  </p>
+  <style>
+    p {
+      color: #000099;
+      background-color: none;
+      font-size: 18px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  </style>
+</body>
+
+</html>
